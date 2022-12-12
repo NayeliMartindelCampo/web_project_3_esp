@@ -1,0 +1,10 @@
+.logo{
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    max-width: 270px;
+    min-width: 200px;
+    margin: 0 auto;
+    margin-top: 34px;
+}
+
