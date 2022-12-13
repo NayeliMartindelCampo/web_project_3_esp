@@ -7,3 +7,15 @@
     align-items: center;
   }
 
+  @media screen and (max-width: 1024px) {
+    .cover__content_subtitle{
+        margin: 0 auto;
+    }
+}
+
+@media screen and (max-width: 640px) {
+    .cover__content_subtitle{
+        max-width: 288px;
+        margin: 0 auto;
+    }
+}

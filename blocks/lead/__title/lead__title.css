@@ -12,7 +12,13 @@
     color: #FFFFFF;
 }
 
-@media screen and (min-width: 320px) and (max-width: 767px) {
+@media screen and (max-width: 1024px) {
+    .lead__tile{
+        margin: 0 auto;
+    }
+}
+
+@media screen and (max-width: 640px) {
     .lead__tile{
         margin: 0 auto;
     }
