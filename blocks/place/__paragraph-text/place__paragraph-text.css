@@ -8,16 +8,16 @@
     /* or 29px */
     color: #FFFFFF;
     margin-left: 40px;
-    max-width: 448px ;
+    max-width: 448px;
 }
 
-@media screen and (max-width: 1024px) {
+@media screen and (max-width: 1024px){
     .place__paragraph-text{
         max-width: 352px;
     }
 }
 
-@media screen and (max-width: 640px) {
+@media screen and (max-width: 640px){
     .place__paragraph-text{
         max-width: 288px;
     }
