@@ -1,4 +1,4 @@
-.cover__content_title{
+.cover__title{
     text-align: center;
     z-index: 2;
     font-family: 'Inter';
@@ -12,13 +12,13 @@
 
 
 @media screen and (max-width: 1024px) {
-    .cover__content_title{
+    .cover__title{
         margin: 0 auto;
     }
 }
 
 @media screen and (max-width: 640px) {
-    .cover__content_title{
+    .cover__title{
         max-width: 288px;
         margin: 0 auto;
         height: 35px;

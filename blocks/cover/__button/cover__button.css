@@ -1,0 +1,20 @@
+.cover__frame {
+    background-color: #0278FE;
+    width: 198px;
+    height: 48px;
+    border-radius: 4px;
+    color: #FFFFFF;
+    margin-top: 48px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 3;
+}
+.cover__frame:hover {
+    background-color: #0063D2;
+    cursor: pointer;
+}
+
+.cover__frame:hover + .cover__background-image {
+    opacity: 0.5;
+}
