@@ -1,6 +1,7 @@
 .place__image{
     grid-area: imagen;
     max-width: 460px;
+    position: absolute;
 }
 
 @media screen and (max-width: 1024px) {
