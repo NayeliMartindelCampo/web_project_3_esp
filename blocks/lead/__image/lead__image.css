@@ -4,7 +4,7 @@
     object-fit: contain;
     max-height: 615px;
     align-items: center;
-    position: absolute;
+    margin-top: 60px;
 }
 
 @media screen and (max-width: 1024px) {

@@ -1,4 +1,4 @@
-.cover__frame {
+.cover__button {
     background-color: #0278FE;
     width: 198px;
     height: 48px;
@@ -9,12 +9,13 @@
     align-items: center;
     justify-content: center;
     z-index: 3;
+    border-style: none;
 }
-.cover__frame:hover {
+.cover__button:hover {
     background-color: #0063D2;
     cursor: pointer;
 }
 
-.cover__frame:hover + .cover__background-image {
+.cover__button:hover + .cover__background-image {
     opacity: 0.5;
 }
